@@ -31,14 +31,14 @@ export const config = {
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
     //{"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
-    //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
-    FESTIVALS: [
+    //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},FESTIVALS
+    birthdays: [
       {"type": "生日", "name": "d", "year": "2002", "date": "02-01"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 0,
+    //FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -62,8 +62,8 @@ export const config = {
 // 天气：{{weather.DATA}}  
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
-// 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
+// 距离考试还有{{love_day.DATA}}天
+// 距离四级考试还有{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
