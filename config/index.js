@@ -32,13 +32,14 @@ export const config = {
     //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
     //{"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},FESTIVALS
-    birthdays: [
+    FESTIVALS: [
       {"type": "生日", "name": "d", "year": "2002", "date": "02-01"},
+      {"type": "节日", "name": "过年", "year": "2023", "date": "01-21"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    //FESTIVALS_LIMIT: 0,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
