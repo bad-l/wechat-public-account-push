@@ -10,7 +10,7 @@ export const config = {
     // 模板消息id
     TEMPLATE_ID: "6F-t1c7M-SoRnZw6JS9YNf929W5Gw_B1zxjrmy6F4fk",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-    USERS: ["od_U16vLUdIds2XzHIvC8lfHBkqs","od_U16hYsYXLic-_7u2sTY9_E0JQ"],
+    USERS: ["od_U16vLUdIds2XzHIvC8lfHBkqs","od_U16hYsYXLic-_7u2sTY9_E0JQ","od_U16nfoXSjys-oLdHb-woq07rc"],
      
     /**
      * 信息配置
@@ -33,7 +33,7 @@ export const config = {
     //{"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},FESTIVALS
     FESTIVALS: [
-      {"type": "生日", "name": "d", "year": "2002", "date": "02-01"},
+      {"type": "节日", "name": "专升本考试", "year": "2023", "date": "06-18"},
       {"type": "节日", "name": "过年", "year": "2023", "date": "01-21"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
