@@ -8,7 +8,7 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "c5f85eeecdc95561a73b15e7e026cafa",
     // 模板消息id
-    TEMPLATE_ID: "6F-t1c7M-SoRnZw6JS9YNf929W5Gw_B1zxjrmy6F4fk",
+    TEMPLATE_ID: "wU_xu4yNGmies3h5-UUd-niMrrTHBVOIROwKtOesLno",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
     USERS: ["od_U16vLUdIds2XzHIvC8lfHBkqs","od_U16hYsYXLic-_7u2sTY9_E0JQ","od_U16nfoXSjys-oLdHb-woq07rc"],
      
