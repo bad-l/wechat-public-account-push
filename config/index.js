@@ -33,7 +33,7 @@ export const config = {
     //{"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},FESTIVALS
     FESTIVALS: [
-      {"type": "节日", "name": "专升本考试", "year": "2023", "date": "06-18"},
+      {"type": "节日", "name": "专升本考试", "year": "2023", "date": "05-8"},
       {"type": "节日", "name": "过年", "year": "2023", "date": "01-21"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
