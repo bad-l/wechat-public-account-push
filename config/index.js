@@ -21,7 +21,7 @@ export const config = {
     // 所在省份
     PROVINCE: "湖北",
     // 所在城市
-    CITY: "武汉",
+    CITY: "襄阳",
 
     /** 重要节日相关 */
 
@@ -33,8 +33,7 @@ export const config = {
     //{"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},FESTIVALS
     FESTIVALS: [
-      {"type": "节日", "name": "专升本考试", "year": "2023", "date": "05-8"},
-      {"type": "节日", "name": "过年", "year": "2023", "date": "01-21"},
+      {"type": "节日", "name": "除夕", "year": "2024", "date": "02-09"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
